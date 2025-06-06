@@ -27,7 +27,7 @@ workflows:
   - id: fl5fazrfop5
     name: ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px_api.json
     file: texttovideo/ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px_api.json
-    version: 1
+    version: 2
     description: ''
     inputs:
       - path: 6.inputs.text
@@ -64,4 +64,4 @@ normal_workflows:
   - id: fl5fazrfop5
     name: ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px.json
     file: texttovideo/ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px.json
-    version: 1
+    version: 2
