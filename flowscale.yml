@@ -21,13 +21,14 @@ workflows:
     description: ''
     file: texttovideo/ltxv13b_workflow.json
   - id: rn4aqwbp2z
-    name: ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px.json
+    name: ltxv_extend_landscape.json
     description: ''
-    file: texttovideo/ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px.json
+    file: texttovideo/ltxv_extend_landscape.json
+    version: .nan
   - id: fl5fazrfop5
-    name: ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px_api.json
-    file: texttovideo/ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px_api.json
-    version: 3
+    name: ltxv_extend_landscape_api.json
+    file: texttovideo/ltxv_extend_landscape_api.json
+    version: 4
     description: ''
     inputs:
       - path: 6.inputs.text
@@ -62,6 +63,6 @@ normal_workflows:
     file: texttovideo/ltxv13b_workflow.json
     version: 28
   - id: fl5fazrfop5
-    name: ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px.json
-    file: texttovideo/ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px.json
-    version: 3
+    name: ltxv_extend_landscape.json
+    file: texttovideo/ltxv_extend_landscape.json
+    version: 4
