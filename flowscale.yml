@@ -1,4 +1,4 @@
-version: 1
+version: 2
 builder_version: latest
 comfyui_version: ComfyUI-0.3.30
 flowscale_nodes_version: 875e4da14d7f66572ca67c6b778be9b1980a1bba
@@ -29,12 +29,35 @@ workflows:
     file: texttovideo/ltxv_13b_0.9.7-fp8_i2v_extend_landscape_768x512px_api.json
     version: 1
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 6.inputs.text
+        label: prompt
+        parameter_name: text_91117
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 1206.inputs.image
+        label: image
+        parameter_name: image_70901
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 1336.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_75902
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: ''
+        demo_type: video
     skip_preprocess: true
-    advancedConfig: false
+    advancedConfig: true
 normal_workflows:
-  - id: 8n3z9a40nl
+  - id: czuw5zpydtc
     name: ltxv13b_workflow.json
     file: texttovideo/ltxv13b_workflow.json
     version: 28
