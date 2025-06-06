@@ -93,7 +93,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly,"
+                "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly, bad"
             ],
             "color": "#322",
             "bgcolor": "#533"
@@ -942,8 +942,8 @@
         "ds": {
             "scale": 0.7513148009015781,
             "offset": [
-                379.4175880779417,
-                -1784.083715579678
+                -134.34841192205815,
+                -1720.1957155796788
             ]
         },
         "frontendVersion": "1.18.0",
