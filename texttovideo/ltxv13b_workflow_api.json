@@ -17,7 +17,7 @@
     },
     "7": {
         "inputs": {
-            "text": "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly",
+            "text": "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly,",
             "clip": [
                 "38",
                 0
