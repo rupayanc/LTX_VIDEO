@@ -1,6 +1,6 @@
 version: 2
 builder_version: latest
-comfyui_version: ComfyUI-0.3.30
+comfyui_version: ComfyUI-0.3.34
 flowscale_nodes_version: 875e4da14d7f66572ca67c6b778be9b1980a1bba
 models: models.json
 custom_nodes: custom_nodes.json
