@@ -93,7 +93,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly"
+                "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly, bad"
             ],
             "color": "#322",
             "bgcolor": "#533"
@@ -325,10 +325,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "Lightricks/ComfyUI-LTXVideo",
+                "cnr_id": "ComfyUI-LTXVideo",
                 "ver": "6e9e6de05624b0aab09b81a2f4a5f473fa97988a",
                 "Node name for S&R": "LTXVBaseSampler",
-                "cnr_id": "ComfyUI-LTXVideo"
+                "aux_id": "Lightricks/ComfyUI-LTXVideo"
             },
             "widgets_values": [
                 768,
@@ -411,10 +411,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "Lightricks/ComfyUI-LTXVideo",
+                "cnr_id": "ComfyUI-LTXVideo",
                 "ver": "6e9e6de05624b0aab09b81a2f4a5f473fa97988a",
                 "Node name for S&R": "Set VAE Decoder Noise",
-                "cnr_id": "ComfyUI-LTXVideo"
+                "aux_id": "Lightricks/ComfyUI-LTXVideo"
             },
             "widgets_values": [
                 0.05,
@@ -448,10 +448,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "0addfc6101f7a834c7fb6e0a1b26529360ab5350",
                 "Node name for S&R": "StringToFloatList",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 "1.0000, 0.9937, 0.9875, 0.9812, 0.9750, 0.9094, 0.7250, 0.4219, 0.0"
@@ -488,10 +488,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1.1.0",
                 "Node name for S&R": "FloatToSigmas",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": []
         },
@@ -542,10 +542,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "Lightricks/ComfyUI-LTXVideo",
+                "cnr_id": "ComfyUI-LTXVideo",
                 "ver": "6e9e6de05624b0aab09b81a2f4a5f473fa97988a",
                 "Node name for S&R": "STGGuiderAdvanced",
-                "cnr_id": "ComfyUI-LTXVideo"
+                "aux_id": "Lightricks/ComfyUI-LTXVideo"
             },
             "widgets_values": [
                 0.9970000000000002,
@@ -588,10 +588,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "yolain/ComfyUI-Easy-Use",
+                "cnr_id": "comfyui-easy-use",
                 "ver": "d287e28e5c3051d037cca4318305d0ed827420b4",
                 "Node name for S&R": "easy cleanGpuUsed",
-                "cnr_id": "comfyui-easy-use"
+                "aux_id": "yolain/ComfyUI-Easy-Use"
             },
             "widgets_values": []
         },
@@ -940,10 +940,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6209213230591553,
+            "scale": 0.7513148009015781,
             "offset": [
-                145.24870807794213,
-                -1840.5556255796782
+                -134.34841192205815,
+                -1720.1957155796788
             ]
         },
         "frontendVersion": "1.18.0",
